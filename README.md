@@ -13,4 +13,6 @@ The file must be specified in the first arguement, eg. `python host.py [file]`.
 The client should run client.py, adjusting the ip in file if needed. The decrypted file will be displayed on
 stdin (standard input).
 
+#### LIMITATIONS:
+Can only send a file of size 2048bytes or less. Ill fix this in probably the next few hours... :()
 
